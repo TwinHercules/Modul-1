@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #edfafd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.biodata {
+    background-color:aqua ;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    margin: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.biodata td {
+    padding: 5px;
+}
+
+.biodata h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.riwayat {
+    background-color:aqua ;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.riwayat h3 {
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.riwayat table {
+    padding-left: 30px;
+}
+
+.riwayat ol{
+    margin: 0;
+    padding-left: 50px;
+}
+
+.riwayat p{
+    margin: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.form {
+    background-color:aqua ;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.form h3 {
+    padding-top: 5px;
+    margin: 0;
+}
+
+form {
+    width: 70%;
+}
+
+.form .tabel {
+    text-align: left;
+}
+
+.form .tabel label, input {
+    margin-top: 5px;
+}
+
+.checkbox {
+    display: flex;
+}
+.radio {
+    display: flex;
+}
+
+.button {
+    text-align: center;
+}
+
+.navigasi {
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around ;
+    margin-bottom: 20px;
+}
+
+.navigasi-container {
+    background-color: aqua;
+    width: 43%; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.navigasi h3 {
+    margin: 0;
+}
+
+.navigasi a{
+    color: inherit;
+    text-decoration: none;
+}
