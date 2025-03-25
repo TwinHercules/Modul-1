@@ -10,7 +10,7 @@ body {
     border-radius: 15px;
     max-width: 600px;
     width: 90%;
-    margin: 20px;
+    margin: 10px;
     margin-bottom: 0;
     padding-bottom: 20px;
 }
@@ -39,23 +39,23 @@ body {
 .riwayat h3 {
     margin: 0;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 5px;
 }
 
 .riwayat table {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .riwayat ol{
     margin: 0;
-    padding-left: 50px;
+    padding-left: 41px;
 }
 
 .riwayat p{
     margin: 5px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     text-align: justify;
 }
 
