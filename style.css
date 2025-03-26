@@ -5,14 +5,16 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.container {
+    display: flex;
+}
+
 .biodata {
     background-color:aqua ;
     border-radius: 15px;
-    max-width: 600px;
-    width: 90%;
-    margin: 10px;
-    margin-bottom: 0;
-    padding-bottom: 20px;
+    width: auto;
+    margin: 10px ;
+    padding: 10px;
 }
 
 .biodata td {
@@ -21,16 +23,74 @@ body {
 
 .biodata h1 {
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    background-color: aqua;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.form .tabel {
+    text-align: left;
+}
+
+.form .tabel label, input {
+    margin: 6px;
+}
+
+.checkbox {
+    display: flex;
+}
+.radio {
+    display: flex;
+}
+
+.button {
+    text-align: center;
+}
+
+.navigasi {
+
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 10px;
+}
+
+.navigasi-container {
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.navigasi h3 {
+    margin: 0;
+}
+
+.navigasi a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .riwayat {
     background-color:aqua ;
     border-radius: 15px;
-    max-width: 600px;
-    width: 90%;
-    margin: 5px;
+    max-width: 810px;
+    width: auto;
+    margin: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: left;
@@ -59,64 +119,8 @@ body {
     text-align: justify;
 }
 
-.form {
-    background-color:aqua ;
-    border-radius: 15px;
-    max-width: 600px;
-    width: 90%;
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-}
-
-.form h3 {
-    padding-top: 5px;
-    margin: 0;
-}
-
-form {
-    width: 70%;
-}
-
-.form .tabel {
-    text-align: left;
-}
-
-.form .tabel label, input {
-    margin-top: 5px;
-}
-
-.checkbox {
-    display: flex;
-}
-.radio {
-    display: flex;
-}
-
-.button {
-    text-align: center;
-}
-
-.navigasi {
-    max-width: 600px;
-    width: 90%;
-    display: flex;
-    justify-content: space-around ;
-    margin-bottom: 20px;
-}
-
-.navigasi-container {
-    background-color: aqua;
-    width: 43%; 
-    text-align: center;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.navigasi h3 {
-    margin: 0;
-}
-
-.navigasi a{
-    color: inherit;
-    text-decoration: none;
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
