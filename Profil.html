@@ -4,41 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Pribadi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tumbal.css">
 </head>
 <body>
-    <center>
-        <div class="biodata">
-            <h1>BIODATA</h1>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Nama</td>
-                        <td>:</td> 
-                        <td>Dimas Izzulhaqq Busthomi</td>
-                    </tr>
-                    <tr>
-                        <td>Alamat</td>
-                        <td>:</td>
-                        <td>Jl. Kampung Agung Burneh Bangkalan</td>
-                    </tr>
-                    <tr>
-                        <td>Tempat, Tanggal Lahir</td>
-                        <td>:</td>
-                        <td>Bangkalan, 31 Mei 2006</td>
-                    </tr>
-                    <tr>
-                        <td>Nomor HP</td>
-                        <td>:</td>
-                        <td>089668029658</td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td>:</td>
-                        <td>dimasizzul85@gmail.com</td> 
-                    </tr>    
-                </tbody>
-            </table>
+    <div class="container">
+        <div class="left-position">
+            <div class="biodata">
+                <h1>BIODATA</h1>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td> 
+                            <td>Dimas Izzulhaqq Busthomi</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td>Jl. Kampung Agung Burneh Bangkalan</td>
+                        </tr>
+                        <tr>
+                            <td>Tempat, Tanggal Lahir</td>
+                            <td>:</td>
+                            <td>Bangkalan, 31 Mei 2006</td>
+                        </tr>
+                        <tr>
+                            <td>Nomor HP</td>
+                            <td>:</td>
+                            <td>089668029658</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>dimasizzul85@gmail.com</td> 
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+            <div class="form">
+                <h3>FORM KEMAMPUAN</h3>
+                <form action="">
+                    <div class="tabel">
+                        <label for="Pemrograman">Bahasa Pemrograman:</label>
+                        <input type="text" id="Bahasa Pemrograman" name="name" placeholder="Masukkan yang dikuasai" required><br>
+                        <label for="Asing">Bahasa Asing:</label>
+                        <input type="text" id="Bahasa Asing" name="name" placeholder="Masukkan yang dikuasai" required><br>
+                        <div class="checkbox">
+                            <label for="name">Perangkat Lunak:</label>
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="Os" >
+                                <label for="Os">Operating System</label><br>
+                                <input type="checkbox" id="As" >
+                                <label for="As">Application Software</label><br>
+                                <input type="checkbox" id="Ps" >
+                                <label for="Ps">Programming Software</label><br>
+                            </div>
+                        </div>
+                        <div class="radio">
+                            <label for="name">Sistem Operasi:</label>
+                            <div class="radio-container">
+                                <input type="radio" id="Sistem Operasi" name="name" required>
+                                <label for="Sistem Operasi">Windows</label><br>
+                                <input type="radio" id="Sistem Operasi" name="name" required>
+                                <label for="Sistem Operasi">macOS</label><br>
+                                <input type="radio" id="Sistem Operasi" name="name" required>
+                                <label for="Sistem Operasi">Linux</label><br>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Kirim</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="navigasi">
+                <div class="navigasi-container">
+                    <a href="Pengalaman.html">
+                        <h3>Pengalaman Kuliah</h3>
+                    </a>
+                </div>
+                <div class="navigasi-container">
+                    <a href="Blog.html">
+                        <h3>Blog</h3>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="riwayat">
             <h3>RIWAYAT PENDIDIKAN</h3>
@@ -87,55 +138,6 @@
             <p>Ospek di tingkat universitas masih terasa menyenangkan, tetapi ketika memasuki ospek fakultas khususnya Fakultas Teknik rasa lelah mulai terasa. Puncaknya terjadi saat ospek prodi, yaitu PROKSI. Namun, semua tantangan itu berhasil saya lalui. Sekarang, saya telah memasuki masa perkuliahan aktif dan tidak ada lagi kegiatan ospek.</p>
             <p>Dari semua pengalaman yang telah saya jalani, saya berharap dapat menjadi pribadi yang lebih baik ke depannya dan mampu menggapai cita-cita saya di dunia IT.</p>
         </div>
-        <div class="form">
-            <h3>FORM KEMAMPUAN</h3>
-            <form action="">
-                <div class="tabel">
-                    <label for="Pemrograman">Bahasa Pemrograman:</label>
-                    <input type="text" id="Bahasa Pemrograman" name="name" placeholder="Masukkan yang dikuasai" required><br>
-                    <label for="Asing">Bahasa Asing:</label>
-                    <input type="text" id="Bahasa Asing" name="name" placeholder="Masukkan yang dikuasai" required><br>
-                    <div class="checkbox">
-                        <label for="name">Perangkat Lunak:</label>
-                        <div class="checkbox-container">
-                            <input type="checkbox" id="Os" >
-                            <label for="Os">Operating System</label><br>
-                            <input type="checkbox" id="As" >
-                            <label for="As">Application Software</label><br>
-                            <input type="checkbox" id="Ps" >
-                            <label for="Ps">Programming Software</label><br>
-                        </div>
-                    </div>
-                    <div class="radio">
-                        <label for="name">Sistem Operasi:</label>
-                        <div class="radio-container">
-                            <input type="radio" id="Sistem Operasi" name="name" required>
-                            <label for="Sistem Operasi">Windows</label><br>
-                            <input type="radio" id="Sistem Operasi" name="name" required>
-                            <label for="Sistem Operasi">macOS</label><br>
-                            <input type="radio" id="Sistem Operasi" name="name" required>
-                            <label for="Sistem Operasi">Linux</label><br>
-                        </div>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Kirim</button>
-                        <button type="reset">Reset</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="navigasi">
-            <div class="navigasi-container">
-                <a href="Pengalaman.html">
-                    <h3>Pengalaman Kuliah</h3>
-                </a>
-            </div>
-            <div class="navigasi-container">
-                <a href="Blog.html">
-                    <h3>Blog</h3>
-                </a>
-            </div>
-        </div>
-    </center>
+    </div>
 </body>
 </html>
