@@ -5,47 +5,85 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container {
-    display: flex;
+.biodata {
+    border: 2px solid black;
+    width: auto;
+    margin: 10px;
 }
 
-.biodata {
-    background-color:aqua ;
-    border-radius: 15px;
-    width: auto;
-    margin: 10px ;
-    padding: 10px;
+.biodata h1 {
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+}
+
+.biodata table {
+    margin: 0px 5px 5px 5px;
 }
 
 .biodata td {
     padding: 5px;
 }
 
-.biodata h1 {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.riwayat {
+    border: 2px solid black;
+    max-width: 100%;
+    width: 94%;
+    margin: 0px 10px 10px 10px; 
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.riwayat h3 {
     margin: 0;
-    text-align: center;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.riwayat table {
+    padding-left: 10px;
+}
+
+.riwayat ol{
+    margin: 0;
+    padding: 5px 10px 5px 35px;
+}
+
+.riwayat p{
+    margin: 5px;
+    padding: 5px 10px 0px 5px;
+    text-align: justify;
+}
+
+.container-form {
+    max-width: 100%;
+    width: 95%;
+    margin: 0px 10px 0px 10px;
 }
 
 .form {
-    background-color: aqua;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
+    border: 2px solid black;
+    width: auto;
+    padding-bottom: 10px;
 }
 
 .form h3 {
     margin: 0;
-    padding: 10px;
-    text-align: center;
+    padding: 10px 10px 0px 10px;
 }
 
 .form .tabel {
+    margin: 0px 10px 10px 5px;
+    padding: 0px 10px 0px 5px;
     text-align: left;
 }
 
 .form .tabel label, input {
-    margin: 6px;
+    margin-top: 10px;
 }
 
 .checkbox {
@@ -60,20 +98,20 @@ body {
 }
 
 .navigasi {
-
-    width: auto;
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    margin: 10px;
+    justify-content: space-around ;
 }
 
 .navigasi-container {
-    background-color: aqua;
-    text-align: center;
-    width: 100%;
+    margin: 5px 0 5px 0px;
+    border: 2px solid black;
+    width: 43%;
+    height: 54px;
     padding: 20px;
-    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
 }
 
 .navigasi h3 {
@@ -85,37 +123,40 @@ body {
     text-decoration: none;
 }
 
-.riwayat {
-    background-color:aqua ;
-    border-radius: 15px;
-    max-width: 810px;
-    width: auto;
-    margin: 10px;
+.pengalaman {
+    border: 2px solid black;
+    margin: 0px 10px 10px 10px;
+}
+
+.pengalaman h3{
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+}
+
+.pengalaman p{
+    text-align: justify;
+    margin-top: 4px;
+    padding: 0px 10px 0px 10px;
+}
+
+.pengalaman-2 {
+    border: 2px solid black;
+    max-width: 100%;
+    width:auto ;
+    margin: 10px; 
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: left;
 }
 
-.riwayat h3 {
+.pengalaman-2 h3 {
     margin: 0;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
-.riwayat table {
-    padding-left: 20px;
-}
-
-.riwayat ol{
-    margin: 0;
-    padding-left: 41px;
-}
-
-.riwayat p{
+.pengalaman-2 p{
     margin: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 5px 10px 0px 5px;
     text-align: justify;
 }
 
